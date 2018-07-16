@@ -58,6 +58,7 @@ public class dailytest {
 		  if(driver.getTitle().contains("7 Day Trial - ContractorOS Business Software"))
 		  		{    //Pass
 			    	System.out.println("Payment not done");
+			    	
 			    	System.out.println("Payment not done");
 		  		}
 			else
