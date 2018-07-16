@@ -1,0 +1,280 @@
+!SESSION 2018-07-13 11:36:25.893 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file /home/nadsoft34/eclipse-workspace/.metadata/.bak_0.log
+Created Time: 2018-07-13 11:45:15.807
+
+!ENTRY org.testng.eclipse 1 0 2018-07-13 11:45:15.807
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nadsoft34/eclipse/jee-oxygen/eclipse/configuration/org.eclipse.osgi/1009/0/.cp/lib/testng-remote.jar /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar /usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar /usr/lib/jvm/java-8-oracle/jre/lib/jce.jar /usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar /usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar /home/nadsoft34/eclipse-workspace/COS/bin /home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0-sources.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/byte-buddy-1.7.9.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-codec-1.10.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-exec-1.3.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-logging-1.2.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/gson-2.8.2.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/guava-23.6-jre.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpclient-4.5.3.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpcore-4.4.6.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okhttp-3.9.1.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okio-1.13.0.jar /home/nadsoft34/.p2/pool/plugins/org.testng_6.14.2.r201802161450.jar /home/nadsoft34/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar /home/nadsoft34/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nadsoft34/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 39288 -protocol json -d /home/nadsoft34/eclipse-workspace/COS/test-output /tmp/testng-eclipse--2117106186/testng-customsuite.xml
+java -ea -classpath /home/nadsoft34/eclipse/jee-oxygen/eclipse/configuration/org.eclipse.osgi/1009/0/.cp/lib/testng-remote.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar:/home/nadsoft34/eclipse-workspace/COS/bin:/home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0-sources.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/byte-buddy-1.7.9.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-codec-1.10.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-exec-1.3.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-logging-1.2.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/gson-2.8.2.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/guava-23.6-jre.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpclient-4.5.3.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpcore-4.4.6.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okhttp-3.9.1.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okio-1.13.0.jar:/home/nadsoft34/.p2/pool/plugins/org.testng_6.14.2.r201802161450.jar:/home/nadsoft34/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar:/home/nadsoft34/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nadsoft34/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 39288 -protocol json -d /home/nadsoft34/eclipse-workspace/COS/test-output /tmp/testng-eclipse--2117106186/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-07-13 11:52:07.970
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nadsoft34/eclipse/jee-oxygen/eclipse/configuration/org.eclipse.osgi/1009/0/.cp/lib/testng-remote.jar /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar /usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar /usr/lib/jvm/java-8-oracle/jre/lib/jce.jar /usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar /usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar /home/nadsoft34/eclipse-workspace/COS/bin /home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0-sources.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/byte-buddy-1.7.9.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-codec-1.10.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-exec-1.3.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-logging-1.2.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/gson-2.8.2.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/guava-23.6-jre.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpclient-4.5.3.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpcore-4.4.6.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okhttp-3.9.1.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okio-1.13.0.jar /home/nadsoft34/.p2/pool/plugins/org.testng_6.14.2.r201802161450.jar /home/nadsoft34/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar /home/nadsoft34/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nadsoft34/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 42370 -protocol json -d /home/nadsoft34/eclipse-workspace/COS/test-output /tmp/testng-eclipse--2345630/testng-customsuite.xml
+java -ea -classpath /home/nadsoft34/eclipse/jee-oxygen/eclipse/configuration/org.eclipse.osgi/1009/0/.cp/lib/testng-remote.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar:/home/nadsoft34/eclipse-workspace/COS/bin:/home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0-sources.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/byte-buddy-1.7.9.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-codec-1.10.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-exec-1.3.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-logging-1.2.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/gson-2.8.2.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/guava-23.6-jre.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpclient-4.5.3.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpcore-4.4.6.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okhttp-3.9.1.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okio-1.13.0.jar:/home/nadsoft34/.p2/pool/plugins/org.testng_6.14.2.r201802161450.jar:/home/nadsoft34/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar:/home/nadsoft34/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nadsoft34/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 42370 -protocol json -d /home/nadsoft34/eclipse-workspace/COS/test-output /tmp/testng-eclipse--2345630/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-07-13 11:54:38.050
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nadsoft34/eclipse/jee-oxygen/eclipse/configuration/org.eclipse.osgi/1009/0/.cp/lib/testng-remote.jar /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar /usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar /usr/lib/jvm/java-8-oracle/jre/lib/jce.jar /usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar /usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar /home/nadsoft34/eclipse-workspace/COS/bin /home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0-sources.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/byte-buddy-1.7.9.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-codec-1.10.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-exec-1.3.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-logging-1.2.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/gson-2.8.2.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/guava-23.6-jre.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpclient-4.5.3.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpcore-4.4.6.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okhttp-3.9.1.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okio-1.13.0.jar /home/nadsoft34/.p2/pool/plugins/org.testng_6.14.2.r201802161450.jar /home/nadsoft34/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar /home/nadsoft34/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nadsoft34/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 38696 -protocol json -d /home/nadsoft34/eclipse-workspace/COS/test-output /tmp/testng-eclipse-1872346413/testng-customsuite.xml
+java -ea -classpath /home/nadsoft34/eclipse/jee-oxygen/eclipse/configuration/org.eclipse.osgi/1009/0/.cp/lib/testng-remote.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar:/home/nadsoft34/eclipse-workspace/COS/bin:/home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0-sources.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/byte-buddy-1.7.9.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-codec-1.10.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-exec-1.3.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-logging-1.2.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/gson-2.8.2.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/guava-23.6-jre.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpclient-4.5.3.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpcore-4.4.6.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okhttp-3.9.1.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okio-1.13.0.jar:/home/nadsoft34/.p2/pool/plugins/org.testng_6.14.2.r201802161450.jar:/home/nadsoft34/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar:/home/nadsoft34/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nadsoft34/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 38696 -protocol json -d /home/nadsoft34/eclipse-workspace/COS/test-output /tmp/testng-eclipse-1872346413/testng-customsuite.xml
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-07-13 12:17:48.118
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at http://beust.com/eclipse/6.14.0/compositeContent.xml.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:243)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:73)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:98)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:209)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:686)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:488)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2018-07-13 12:17:48.120
+!MESSAGE Unable to read repository at http://beust.com/eclipse/6.14.0/compositeContent.xml.
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:209)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:686)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:488)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2018-07-13 12:17:48.122
+!MESSAGE Unable to read repository at http://beust.com/eclipse.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at http://beust.com/eclipse/6.14.0/compositeContent.xml.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:243)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:73)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:98)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:209)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:686)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:488)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2018-07-13 12:17:48.123
+!MESSAGE Unable to read repository at http://beust.com/eclipse/6.14.0/compositeContent.xml.
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:209)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:686)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:488)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-07-13 12:18:08.144
+!MESSAGE Unknown Host: http://download.eclipse.org/oomph/updates/milestone/latest/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2018-07-13 12:18:08.152
+!MESSAGE Unknown Host: http://download.eclipse.org/webtools/repository/neon/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SESSION 2018-07-14 10:11:30.742 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.testng.eclipse 1 0 2018-07-14 10:12:15.520
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nadsoft34/eclipse/jee-oxygen/eclipse/configuration/org.eclipse.osgi/1009/0/.cp/lib/testng-remote.jar /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar /usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar /usr/lib/jvm/java-8-oracle/jre/lib/jce.jar /usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar /usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar /home/nadsoft34/eclipse-workspace/COS/bin /home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0-sources.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/byte-buddy-1.7.9.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-codec-1.10.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-exec-1.3.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-logging-1.2.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/gson-2.8.2.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/guava-23.6-jre.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpclient-4.5.3.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpcore-4.4.6.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okhttp-3.9.1.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okio-1.13.0.jar /home/nadsoft34/.p2/pool/plugins/org.testng_6.14.2.r201802161450.jar /home/nadsoft34/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar /home/nadsoft34/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nadsoft34/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 42866 -protocol json -d /home/nadsoft34/eclipse-workspace/COS/test-output /tmp/testng-eclipse--1304677294/testng-customsuite.xml
+java -ea -classpath /home/nadsoft34/eclipse/jee-oxygen/eclipse/configuration/org.eclipse.osgi/1009/0/.cp/lib/testng-remote.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar:/home/nadsoft34/eclipse-workspace/COS/bin:/home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0-sources.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/byte-buddy-1.7.9.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-codec-1.10.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-exec-1.3.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-logging-1.2.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/gson-2.8.2.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/guava-23.6-jre.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpclient-4.5.3.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpcore-4.4.6.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okhttp-3.9.1.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okio-1.13.0.jar:/home/nadsoft34/.p2/pool/plugins/org.testng_6.14.2.r201802161450.jar:/home/nadsoft34/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar:/home/nadsoft34/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nadsoft34/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 42866 -protocol json -d /home/nadsoft34/eclipse-workspace/COS/test-output /tmp/testng-eclipse--1304677294/testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-07-14 10:12:40.228
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nadsoft34/eclipse/jee-oxygen/eclipse/configuration/org.eclipse.osgi/1009/0/.cp/lib/testng-remote.jar /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar /usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar /usr/lib/jvm/java-8-oracle/jre/lib/jce.jar /usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar /usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar /home/nadsoft34/eclipse-workspace/COS/bin /home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0-sources.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/byte-buddy-1.7.9.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-codec-1.10.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-exec-1.3.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-logging-1.2.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/gson-2.8.2.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/guava-23.6-jre.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpclient-4.5.3.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpcore-4.4.6.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okhttp-3.9.1.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okio-1.13.0.jar /home/nadsoft34/.p2/pool/plugins/org.testng_6.14.2.r201802161450.jar /home/nadsoft34/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar /home/nadsoft34/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nadsoft34/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 32845 -protocol json -d /home/nadsoft34/eclipse-workspace/COS/test-output /tmp/testng-eclipse-1048309061/testng-customsuite.xml
+java -ea -classpath /home/nadsoft34/eclipse/jee-oxygen/eclipse/configuration/org.eclipse.osgi/1009/0/.cp/lib/testng-remote.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar:/home/nadsoft34/eclipse-workspace/COS/bin:/home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0-sources.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/byte-buddy-1.7.9.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-codec-1.10.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-exec-1.3.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-logging-1.2.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/gson-2.8.2.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/guava-23.6-jre.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpclient-4.5.3.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpcore-4.4.6.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okhttp-3.9.1.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okio-1.13.0.jar:/home/nadsoft34/.p2/pool/plugins/org.testng_6.14.2.r201802161450.jar:/home/nadsoft34/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar:/home/nadsoft34/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nadsoft34/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 32845 -protocol json -d /home/nadsoft34/eclipse-workspace/COS/test-output /tmp/testng-eclipse-1048309061/testng-customsuite.xml
+!SESSION 2018-07-16 11:32:52.660 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.testng.eclipse 1 0 2018-07-16 11:33:35.562
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /home/nadsoft34/eclipse/jee-oxygen/eclipse/configuration/org.eclipse.osgi/1009/0/.cp/lib/testng-remote.jar /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar /usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar /usr/lib/jvm/java-8-oracle/jre/lib/jce.jar /usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar /usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar /usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar /home/nadsoft34/eclipse-workspace/COS/bin /home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0-sources.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/byte-buddy-1.7.9.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-codec-1.10.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-exec-1.3.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-logging-1.2.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/gson-2.8.2.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/guava-23.6-jre.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpclient-4.5.3.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpcore-4.4.6.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okhttp-3.9.1.jar /home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okio-1.13.0.jar /home/nadsoft34/.p2/pool/plugins/org.testng_6.14.2.r201802161450.jar /home/nadsoft34/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar /home/nadsoft34/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar /home/nadsoft34/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 39540 -protocol json -d /home/nadsoft34/eclipse-workspace/COS/test-output /tmp/testng-eclipse--1053429515/testng-customsuite.xml
+java -ea -classpath /home/nadsoft34/eclipse/jee-oxygen/eclipse/configuration/org.eclipse.osgi/1009/0/.cp/lib/testng-remote.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar:/home/nadsoft34/eclipse-workspace/COS/bin:/home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/client-combined-3.11.0-sources.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/byte-buddy-1.7.9.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-codec-1.10.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-exec-1.3.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/commons-logging-1.2.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/gson-2.8.2.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/guava-23.6-jre.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpclient-4.5.3.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/httpcore-4.4.6.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okhttp-3.9.1.jar:/home/nadsoft34/Desktop/selenium-java-3.11.0/libs/okio-1.13.0.jar:/home/nadsoft34/.p2/pool/plugins/org.testng_6.14.2.r201802161450.jar:/home/nadsoft34/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar:/home/nadsoft34/.p2/pool/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar:/home/nadsoft34/.p2/pool/plugins/org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 39540 -protocol json -d /home/nadsoft34/eclipse-workspace/COS/test-output /tmp/testng-eclipse--1053429515/testng-customsuite.xml
