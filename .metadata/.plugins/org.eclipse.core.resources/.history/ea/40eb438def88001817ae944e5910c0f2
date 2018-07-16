@@ -69,6 +69,6 @@ public class dailytest {
 		  
 	  }
   public void log() {
-	  System.out.println("New log generated");
+	  System.out.println("log generated");
   }
 }
