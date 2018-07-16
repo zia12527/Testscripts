@@ -23,7 +23,7 @@ public class dailytest {
 		
 		  driver.manage().window().maximize();
 //		  driver.get("https://www.contractoros.net/login");
-		  driver.get("https://www.contractoros.net/wp-content/plugins/registration-process/logs/registration-18-07-15.log");
+		  driver.get("https://www.contractoros.net/wp-content/plugins/registration-process/logs/registration-18-07-14.log");
 	  }
 	@BeforeMethod
 	  public void beforeMethod() throws InterruptedException
