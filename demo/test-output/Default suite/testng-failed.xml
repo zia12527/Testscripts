@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demo1.dcomercialform">
+      <class name="demo1.coreg">
         <methods>
-          <include name="testScripts"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="execute"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- demo1.dcomercialform -->
+      </class> <!-- demo1.coreg -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

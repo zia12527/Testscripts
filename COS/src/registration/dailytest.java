@@ -22,8 +22,8 @@ public class dailytest {
 		  driver = new FirefoxDriver(); */
 		
 		  driver.manage().window().maximize();
-//		  driver.get("https://www.contractoros.net/login");
-		  driver.get("https://www.contractoros.net/wp-content/plugins/registration-process/logs/registration-18-07-15.log");
+		  driver.get("https://www.contractoros.net/login");
+//		  driver.get("https://www.contractoros.net/wp-content/plugins/registration-process/logs/registration-18-07-16.log");
 	  }
 	@BeforeMethod
 	  public void beforeMethod() throws InterruptedException
@@ -40,15 +40,15 @@ public class dailytest {
 	
 	  @Test
 	  public void script() throws InterruptedException {
-//		  newuser();
-     	  log();
+		  newuser();
+//     	  log();
 	  }
 	  
   public void newuser() throws InterruptedException {
 		  //Enter email and password for the new users as per the log
 		  System.out.println("login page");
-		  driver.findElement(By.xpath("//*[@id=\"user_login\"]")).sendKeys("elshat333");
-		  driver.findElement(By.xpath("//*[@id=\"user_pass\"]")).sendKeys("Bigbang1");
+		  driver.findElement(By.xpath("//*[@id=\"user_login\"]")).sendKeys("tonyrw00");
+		  driver.findElement(By.xpath("//*[@id=\"user_pass\"]")).sendKeys("tonyrw/7903");
 		  driver.findElement(By.name("wp-submit")).click();
 		  Thread.sleep(200);
 		 /* String actualTitle = driver.getTitle();

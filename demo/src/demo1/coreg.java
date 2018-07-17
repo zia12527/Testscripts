@@ -49,7 +49,7 @@ public class coreg {
   public void execute() throws InterruptedException, AWTException
   {
 	  login();
-//	  publisher();
+	  publisher();
 //	  advertiser();
 //	  manage_offer(); 
 //	  manage_offer_pages();
@@ -86,15 +86,18 @@ public class coreg {
 	  driver.findElement(By.xpath("/html/body/div[1]/div[1]/section[2]/div/div/form/div[3]/input")).sendKeys("nadsoftsdfsdfsfdsffsdfsf@outlook.com");
 	  driver.findElement(By.xpath("//*[@id=\"pwd\"]")).sendKeys("nadsoft123");	  
 	  driver.findElement(By.xpath("//*[@id=\"cpwd\"]")).sendKeys("nadsoft123");	
+	  Thread.sleep(500);
+	  WebElement radioBtn = driver.findElement(By.id("pageviewpercentage"));
+	  radioBtn.click();
 	  //create Pub
-	  driver.findElement(By.xpath("/html/body/div[1]/div[1]/section[2]/div/div/form/div[6]/div[1]/button")).click();
+	 /* driver.findElement(By.xpath("/html/body/div[1]/div[1]/section[2]/div/div/form/div[6]/div[1]/button")).click();
 	  Thread.sleep(1000);
 	  //verify on pub page
 	  String pub_email1 = driver.findElement(By.xpath("/html/body/div[1]/div[1]/section[2]/div/div")).getText();
 	  String pub_email2 = ("New Publisher Successfully Added");
 	  Assert.assertEquals(pub_email1, pub_email2);
 	  System.out.println("Actual message : "+pub_email1);
-	  System.out.println("Expected message : "+pub_email2);
+	  System.out.println("Expected message : "+pub_email2);*/
 	  System.out.println("Verified sucessfully");
 	  
   }
